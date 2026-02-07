@@ -1,0 +1,64 @@
+#pirveli +
+#+ funqcia sheidzleba gamoviyenot rogorc integerze da floatze iseve stringze
+#magram mat shoris gansxvavebaa integer da float tipebs shekribavs
+#xolo string tips ubralod gamoitans ert xazze mityupebulad
+#magaliti 1 integeri
+num1=99
+num2=1
+print(num1 + num2)
+#magaliti 2 floati
+num3=1.8
+num4=0.2
+print(num3 + num4)
+#magaliti 3 stringi
+name="Luka"
+surname="Khvedelidze"
+print(name + surname)
+#shemdegi aris -
+#- gamoiyeneba mxolod float da integertan
+#magaliti 1 integeri
+gam=7
+gam1=4
+print(gam-gam1)
+#meore magaliti float 
+gam3=7.8
+gam4=3.4
+print(gam3-gam4)
+#shemdegi funqcia /
+#/gamoiyeneba floatze da integerze
+#magaliti 1 integeri
+dag=9
+dag1=3
+print(dag/dag1)
+#float magaliti 2
+dag2=9.8
+dag3=3
+print(dag2/dag3)
+#/funqcias gamoaq integer tipshi pasuxi float tu gvinda gamovides
+#mteli ricxvi vwert // or gayofas da gamoaq mtelii
+#magram tu zustad ariyofa gamoaq ramdenjer motavsdeba 
+#ragac ricxvshi is ricxvi romelzec vyoft
+
+#shemdegi funqcia gamravleba 
+#integeri,float stringi
+#shegvidzlia integeri da stringic
+
+
+#konkatinacia aris roca xelit vwert grdzel kods tavisi spacebit
+#magalitad
+gg="luka"
+gg1="khvede"
+print(gg+" "+gg1)
+#shegvidzlia asec
+print("i am" + " " + "16" + "years old")
+
+#davaleba 3
+gam1=9
+gam2=17
+print(gam1+gam2)
+
+#davaleba4
+saxeli="luka"
+asakui=15
+simaghle=185
+print(f"i am {saxeli},my age is {asakui} and my height is {simaghle}")
