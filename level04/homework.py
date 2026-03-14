@@ -58,7 +58,8 @@ print(f"You are {age}g years old")
 num1=input("enter any number: ")
 num2=input("enter second number: ")
 sum=num1+num2
-#
+division=num1 / num2
 multiply=num1*num2
 subtraction=num1-num2
 print(sum,division,multiply,subtraction)
+#jamis shemdeg agdebs erors radgan num1 s da num2 s mieniwat string tipi amitom matematikur moqmedebebs ver shevasrukebt
