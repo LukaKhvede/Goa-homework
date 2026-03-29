@@ -333,6 +333,14 @@ else:
 
             name = input("Parent name 😊 ")
             surname = input("Parent surname 😊 ")
+            if name[0].isupper() and surname[0].isupper():
+                    print("OK ✅")
+            else:
+                print(name.capitalize(), surname.capitalize())
+
+            name = input("Parent name 😊 ")
+            surname = input("Parent surname 😊 ")
+
             phone = input("Parent phone number 😊 ")
             facebook = input("Parent Facebook link 😊 ")
             email = input("Parent Email 😊 ")
@@ -369,7 +377,7 @@ else:
             print("Email:", email)
             print("Accepted")
 
-        else:
+    else:
             print("Not accepted")
 
 
@@ -379,6 +387,11 @@ else:
 
     name = input("Enter your name: ")
     surname = input("Enter your surname: ")
+    if name[0].isupper() and surname[0].isupper():
+        print("OK ✅")
+    else:
+        print(name.capitalize(), surname.capitalize())
+
     email = input("Enter your email: ")
 
     found = False
