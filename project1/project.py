@@ -1,4 +1,7 @@
 
+
+
+
 from turtle import *
 
 
@@ -92,6 +95,7 @@ if language == "ქართული" or language == "Georgian":
 
     print(f"3.{gd}")
     print("   მოკლე აღწერა: თამაშების შექმნა")
+    print('speed 1 - კვირაში ერთხელ\nspeed 2 - კვირაში ორჯერ\nspeed 3 - კვირაში სამჯერ\n')
     print("   სიჩქარე: 1,2,3\n")
 
     # არჩევის ციკლი
@@ -137,6 +141,15 @@ if language == "ქართული" or language == "Georgian":
             phone = input("მშობლის ნომერი 😊")
             facebook = input("მშობლის Facebook ლინკი 😊")
             email = input("მშობლის Email 😊")
+            found = False
+            while found == False:
+                for i in email:
+                    if i == "@":
+                        found = True
+
+                if found == False:
+                    print("არასწორი email, სცადე თავიდან")
+                    email = input("შეიყვანე email: ")                        
 
             print("მშობლის ინფორმაცია 😊")
             print("სახელი :",name)
@@ -158,6 +171,18 @@ if language == "ქართული" or language == "Georgian":
     name = input('შეიყვანეთ თქვენი სახელი: ')
     surname = input('შეიყვანეთ თქვენი გვარი: ')
     email = input('შეიყვანეთ თქვენი Email: ')
+    found = False
+
+    while found == False:
+        for i in email:
+            if i == "@":
+                found = True
+
+        if found == False:
+            print("არასწორი email, სცადე თავიდან")
+            email = input("შეიყვანე email: ")
+
+
     phone_number = input('შეიყვანეთ თქვენი ტელეფონის ნომერი: ')
     personal_id = input('შეიყვანეთ თქვენი ID: ')
     fb_link = input('შეიყვანეთ თქვენი Facebook ლინკი: ')
@@ -265,6 +290,7 @@ else:
 
     print(f"3. {gd}")
     print("   Short description: Creating games")
+    print('speed 1 - once a week\nspeed 2 - twice a week\nspeed 3 - three times a week\n')
     print("   Speed: 1,2,3\n")
 
     choice = input("Choose a course (Python Programming/Web Development/Game Development): ")
@@ -310,12 +336,30 @@ else:
             phone = input("Parent phone number 😊 ")
             facebook = input("Parent Facebook link 😊 ")
             email = input("Parent Email 😊 ")
+
+            found = False
+
+            while found == False:
+                for i in email:
+                    if i == "@":
+                        found = True
+
+                if found == False:
+                    print("Invalid email, try again")
+                    email = input("Enter email: ")
+
             email = input("Enter your email: ")
 
-# if "@" in email and ("@gmail.com" in email or "@yahoo.com" in email or "@outlook.com" in email):
-#     print("Valid email ✅")
-# else:
-#     print("Invalid ❌")
+            found = False
+
+            while found == False:
+                for i in email:
+                    if i == "@":
+                        found = True
+
+                if found == False:
+                    print("Invalid email, try again")
+                    email = input("Enter email: ")
 
             print("Parent information 😊")
             print("Name:", name)
@@ -336,6 +380,19 @@ else:
     name = input("Enter your name: ")
     surname = input("Enter your surname: ")
     email = input("Enter your email: ")
+
+    found = False
+
+    while found == False:
+        for i in email:
+            if i == "@":
+                found = True
+
+        if found == False:
+            print("Invalid email, try again")
+            email = input("Enter email: ")
+
+
     phone_number = input("Enter your phone number: ")
     personal_id = input("Enter your ID: ")
     fb_link = input("Enter your Facebook: ")
