@@ -1,7 +1,3 @@
-
-
-
-
 from turtle import *
 
 
@@ -81,6 +77,7 @@ language = input("აირჩიე ენა (ქართული/ინგ�
 print()
 
 if language == "ქართული" or language == "Georgian":
+
     print("ხელმისაწვდომი კურსები:\n")
     py="Python Programming"
     wb="Web Development"
@@ -98,69 +95,72 @@ if language == "ქართული" or language == "Georgian":
     print('speed 1 - კვირაში ერთხელ\nspeed 2 - კვირაში ორჯერ\nspeed 3 - კვირაში სამჯერ\n')
     print("   სიჩქარე: 1,2,3\n")
 
+
+    
+
     # არჩევის ციკლი
 
     choice = input("აირჩიე კურსი (Python Programming/Web Development/Game Development): ")
 
     if choice == py:
-            print("\nPython Programming")
-            print("ვრცელი ინფორმაცია:")
-            print("ისწავლი Python-ის საფუძვლებს, ცვლადებს, ციკლებს და ფუნქციებს.")
+                print("\nPython Programming")
+                print("ვრცელი ინფორმაცია:")
+                print("ისწავლი Python-ის საფუძვლებს, ცვლადებს, ციკლებს და ფუნქციებს.")
 
 
     elif choice == wb:
-            print("\nWeb Development")
-            print("ვრცელი ინფორმაცია:")
-            print("ისწავლი HTML, CSS და JavaScript-ს.")
+                print("\nWeb Development")
+                print("ვრცელი ინფორმაცია:")
+                print("ისწავლი HTML, CSS და JavaScript-ს.")
 
 
     elif choice == gd:
-            print("\nGame Development")
-            print("ვრცელი ინფორმაცია:")
-            print("ისწავლი როგორ შექმნა თამაშები Python-ით.")
+                print("\nGame Development")
+                print("ვრცელი ინფორმაცია:")
+                print("ისწავლი როგორ შექმნა თამაშები Python-ით.")
 
     else:
-            print("არასწორი არჩევანი, სცადე თავიდან ❌")
+                print("არასწორი არჩევანი, სცადე თავიდან ❌")
 
     speeds = input('შეიყვანეთ რა სიჩქარით გსურთ სწავლა (1/2/3): ')
 
-    # N3_______________________
+        # N3_______________________
 
     age = int(input("შიყვანეთ თქვენი ასაკი :"))
 
     while age < 0 or age > 99:
-        print("არასწორი ასაკი, შეიყვანეთ სწორი ასაკი")
-        age = int(input("შიყვანეთ თქვენი ასაკი :"))
+            print("არასწორი ასაკი, შეიყვანეთ სწორი ასაკი")
+            age = int(input("შიყვანეთ თქვენი ასაკი :"))
 
-        if age >= 18 and age <=99:
-            print("სრულ წლოვანი ხარ")
-        elif age < 18:
-            print("არასრულწლოვანი ხარ, შეიყვანე მშობლის ინფორმაცია")
-            name = input("მშობლის სახელი 😊")
-            surname = input("მშობლის გვარი 😊")
-            phone = input("მშობლის ნომერი 😊")
-            facebook = input("მშობლის Facebook ლინკი 😊")
-            email = input("მშობლის Email 😊")
-            found = False
-            while found == False:
-                for i in email:
-                    if i == "@":
-                        found = True
+    if age >= 18 and age <=99:
+                print("სრულ წლოვანი ხარ")
+    elif age < 18:
+        print("არასრულწლოვანი ხარ, შეიყვანე მშობლის ინფორმაცია")
+        name1 = input("მშობლის სახელი: ")
+        surname1 = input("მშობლის გვარი: ")
+        phone = input("მშობლის ნომერი: ")
+        facebook = input("მშობლის Facebook ლინკი: ")
+        email1 = input("მშობლის Email: ")
+        found = False
+        while found == False:
+            for i in email1:
+                if i == "@":
+                    found = True
 
-                if found == False:
-                    print("არასწორი email, სცადე თავიდან")
-                    email = input("შეიყვანე email: ")                        
+            if found == False:
+                print("არასწორი email, სცადე თავიდან")
+                email1 = input("შეიყვანე email: ")                        
 
-            print("მშობლის ინფორმაცია 😊")
-            print("სახელი :",name)
-            print("გვარი :",surname)
-            print("ნომერი :",phone)
-            print("Facebook :",facebook)
-            print("Email :", email)
-            print("მიღებულია")
+        print("მშობლის ინფორმაცია 😊")
+        print("სახელი :",name1)
+        print("გვარი :",surname1)
+        print("ნომერი :",phone)
+        print("Facebook :",facebook)
+        print("Email :", email1)
+        print("მიღებულია")
 
-        else:
-            print("მიუღებელია")
+    else:
+        print("მიუღებელია")
 
 
     # N4_______________________
@@ -174,13 +174,13 @@ if language == "ქართული" or language == "Georgian":
     found = False
 
     while found == False:
-        for i in email:
-            if i == "@":
-                found = True
+            for i in email:
+                if i == "@":
+                    found = True
 
-        if found == False:
-            print("არასწორი email, სცადე თავიდან")
-            email = input("შეიყვანე email: ")
+            if found == False:
+                print("არასწორი email, სცადე თავიდან")
+                email = input("შეიყვანე email: ")
 
 
     phone_number = input('შეიყვანეთ თქვენი ტელეფონის ნომერი: ')
@@ -190,8 +190,8 @@ if language == "ქართული" or language == "Georgian":
     confirm_password = input('დაადასტურეთ თქვენი პაროლი: ')
 
     while password != confirm_password:
-        print("Wrong password, try again")
-        confirm_password = input('შეიყვანეთ თქვენი პაროლი: ')
+            print("Wrong password, try again")
+            confirm_password = input('შეიყვანეთ თქვენი პაროლი: ')
     print("Access granted")
 
     chad_or_looser = input('მზად ხარ დაიწყო GOA-ში სწავლა დაუთმო დრო გაკვეთილებს, ივარჯიშო შესვენებაზე და გახდე ნამდვილი ჩადი? (დიახ/არა): ')
@@ -209,47 +209,31 @@ if language == "ქართული" or language == "Georgian":
 
     # N5_______________________
 
-        if age >= 18 and age <=99:
-            if speeds == "1":
-                print("==========განრიგი==========")
-                print('თქვენ GOAში ისწავლით კვირაში ერთხელ')
-                print('ყოველ ორშაბათს 21:00-23:00 საათებში')
-                print("===========================")
-            elif speeds == "2":
-                print("==========განრიგი==========")
-                print('თქვენ GOAში ისწავლით კვირაში ორჯერ')
-                print('ყოველ ორშაბათს და ხუთშაბათს 21:00-23:00 საათებში')
-                print("===========================")
-            elif speeds == '3':
-                print("==========განრიგი==========")
-                print('თქვენ GOAში ისწავლით კვირაში სამჯერ')
-                print("ყოველ ორშაბათს ხუთშაბათს და შაბათს 21:00-23:00 საათებში")
-                print("===========================")
-            else:
-                print('სცადეთ ხელთავიდან')
+    if age >= 18 and age <=99:
+        if speeds == "1":
+            print("==========განრიგი==========")
+            print('თქვენ GOAში ისწავლით კვირაში ერთხელ')
+            print('ყოველ ორშაბათს 21:00-23:00 საათებში')
+            print("===========================")
+        elif speeds == "2":
+            print("==========განრიგი==========")
+            print('თქვენ GOAში ისწავლით კვირაში ორჯერ')
+            print('ყოველ ორშაბათს და ხუთშაბათს 21:00-23:00 საათებში')
+            print("===========================")
+        elif speeds == '3':
+            print("==========განრიგი==========")
+            print('თქვენ GOAში ისწავლით კვირაში სამჯერ')
+            print("ყოველ ორშაბათს ხუთშაბათს და შაბათს 21:00-23:00 საათებში")
+            print("===========================")
         else:
-            if speeds == "1":
-                    print("==========განრიგი==========")
-                    print('თქვენ შვილი GOAში ისწავლით კვირაში ერთხელ')
-                    print('ყოველ ორშაბათს 21:00-23:00 საათებში')
-                    print("===========================")
-            elif speeds == "2":
-                    print("==========განრიგი==========")
-                    print('თქვენ შვილი GOAში ისწავლით კვირაში ორჯერ')
-                    print('ყოველ ორშაბათს და ხუთშაბათს 21:00-23:00 საათებში')
-                    print("===========================")
-            elif speeds == '3':
-                    print("==========განრიგი==========")
-                    print('თქვენ შვილი GOAში ისწავლით კვირაში სამჯერ')
-                    print("ყოველ ორშაბათს ბუთშაბათს და შაბათს 21:00-23:00 საათებში")
-                    print("===========================")
-            else:
-                    print('სცადეთ ხელთავიდან')
+            print('სცადეთ ხელთავიდან')
+
 
 
 
 
     # N6_______________________
+
 
 
 
@@ -261,19 +245,20 @@ if language == "ქართული" or language == "Georgian":
 
     if answer == 'კი':
         print('GOA MMA მართლაც მაგარი ადგილია ვარჯიშისთვის 💪')
-        print('GOA MMA-ში თქვენ შეისწავლით Boxing-ს,Kickboxing-ს და MMA-ის')
-        print('---------------')
-        print('ეს არის ჩვენი Instagram-ი: @goa_mma ')
-        print('---------------')
-        print('ეს არის ჩვენი განრიგი: ')
-        print("ორშაბათი - 18:00")
-        print("სამშაბათი - 18:00")
-        print("ხუთშაბათი - 19:00")
-        print("შაბათი - 12:00")
-    else:
-        print('გილოცავ! შენ დღეიდან ხარ Chad-ი რადგან დარეგისტრირდი GOA-ში 😎')
+    print('GOA MMA-ში თქვენ შეისწავლით Boxing-ს,Kickboxing-ს და MMA-ის')
+    print('---------------')
+    print('ეს არის ჩვენი Instagram-ი: @goa_mma ')
+    print('---------------')
+    print('ეს არის ჩვენი განრიგი: ')
+    print("ორშაბათი - 18:00")
+    print("სამშაბათი - 18:00")
+    print("ხუთშაბათი - 19:00")
+    print("შაბათი - 12:00")
 
-else:
+    print('გილოცავ! შენ დღეიდან ხარ Chad-ი რადგან დარეგისტრირდი GOA-ში 😎')
+
+
+elif language == 'English':
     print("Available courses:\n")
 
     py = "Python Programming"
@@ -315,9 +300,7 @@ else:
 
     speeds = input("Enter the learning speed you want (1/2/3): ")
 
-
     # N3_______________________
-
 
     age = int(input("Enter your age: "))
 
@@ -325,61 +308,52 @@ else:
         print("Invalid age. Please enter a valid age.")
         age = int(input("Enter your age: "))
 
-        if age >= 18 and age <= 99:
-            print("You are an adult")
+    if age >= 18 and age <= 99:
+        print("You are an adult")
 
-        elif age < 18:
-            print("You are underage, enter parent information")
+    elif age < 18:
+        print("You are underage, enter parent information")
 
-            name = input("Parent name 😊 ")
-            surname = input("Parent surname 😊 ")
-            if name[0].isupper() and surname[0].isupper():
-                    print("OK ✅")
-            else:
-                print(name.capitalize(), surname.capitalize())
+        name = input("Parent name: ")
+        surname = input("Parent surname: ")
+        phone = input("Parent phone number: ")
+        facebook = input("Parent Facebook link: ")
+        email = input("Parent Email: ")
 
-            name = input("Parent name 😊 ")
-            surname = input("Parent surname 😊 ")
+        found = False
 
-            phone = input("Parent phone number 😊 ")
-            facebook = input("Parent Facebook link 😊 ")
-            email = input("Parent Email 😊 ")
+        while found == False:
+            for i in email:
+                if i == "@":
+                    found = True
 
-            found = False
+            if found == False:
+                print("Invalid email, try again")
+                email = input("Enter email: ")
 
-            while found == False:
-                for i in email:
-                    if i == "@":
-                        found = True
+        email = input("Enter your email: ")
 
-                if found == False:
-                    print("Invalid email, try again")
-                    email = input("Enter email: ")
+        found = False
 
-            email = input("Enter your email: ")
+        while found == False:
+            for i in email:
+                if i == "@":
+                    found = True
 
-            found = False
+            if found == False:
+                print("Invalid email, try again")
+                email = input("Enter email: ")
 
-            while found == False:
-                for i in email:
-                    if i == "@":
-                        found = True
-
-                if found == False:
-                    print("Invalid email, try again")
-                    email = input("Enter email: ")
-
-            print("Parent information 😊")
-            print("Name:", name)
-            print("Surname:", surname)
-            print("Phone:", phone)
-            print("Facebook:", facebook)
-            print("Email:", email)
-            print("Accepted")
+        print("Parent information 😊")
+        print("Name:", name)
+        print("Surname:", surname)
+        print("Phone:", phone)
+        print("Facebook:", facebook)
+        print("Email:", email)
+        print("Accepted")
 
     else:
-            print("Not accepted")
-
+        print("Not accepted")
 
     # N4_______________________
 
@@ -387,11 +361,6 @@ else:
 
     name = input("Enter your name: ")
     surname = input("Enter your surname: ")
-    if name[0].isupper() and surname[0].isupper():
-        print("OK ✅")
-    else:
-        print(name.capitalize(), surname.capitalize())
-
     email = input("Enter your email: ")
 
     found = False
@@ -405,7 +374,6 @@ else:
             print("Invalid email, try again")
             email = input("Enter email: ")
 
-
     phone_number = input("Enter your phone number: ")
     personal_id = input("Enter your ID: ")
     fb_link = input("Enter your Facebook: ")
@@ -413,10 +381,6 @@ else:
     confirm_password = input("Confirm your password: ")
     email = input("Enter your email: ")
 
-# if "@" in email and ("@gmail.com" in email or "@yahoo.com" in email or "@outlook.com" in email):
-#     print("Valid email ✅")
-# else:
-#     print("Invalid ❌")
 
     while password != confirm_password:
         print("Wrong password, try again")
@@ -438,10 +402,8 @@ else:
     else:
         print("Try again")
 
-
-
     # N5_______________________
-    # while True:
+
     if age >= 18 and age <= 99:
 
         if speeds == "1":
@@ -467,30 +429,28 @@ else:
 
     else:
 
-            if speeds == "1":
-                print("==========Schedule==========")
-                print("Your child will study in GOA once a week")
-                print("Every Monday 21:00-23:00")
-                print("============================")
+        if speeds == "1":
+            print("==========Schedule==========")
+            print("Your child will study in GOA once a week")
+            print("Every Monday 21:00-23:00")
+            print("============================")
 
-            elif speeds == "2":
-                print("==========Schedule==========")
-                print("Your child will study in GOA twice a week")
-                print("Every Monday and Thursday 21:00-23:00")
-                print("============================")
+        elif speeds == "2":
+            print("==========Schedule==========")
+            print("Your child will study in GOA twice a week")
+            print("Every Monday and Thursday 21:00-23:00")
+            print("============================")
 
-            elif speeds == "3":
-                print("==========Schedule==========")
-                print("Your child will study in GOA three times a week")
-                print("Monday, Thursday and Saturday 21:00-23:00")
-                print("============================")
+        elif speeds == "3":
+            print("==========Schedule==========")
+            print("Your child will study in GOA three times a week")
+            print("Monday, Thursday and Saturday 21:00-23:00")
+            print("============================")
 
-            else:
-                print("Try again")
+        else:
+            print("Try again")
 
-
-
-  # N6_______________________
+    # N6_______________________
 
     print("---- GOA MMA ----")
 
@@ -499,7 +459,6 @@ else:
     print("--------------")
 
     if answer == "yes":
-
         print("GOA MMA is really a great place to train 💪")
         print("In GOA MMA you will learn Boxing, Kickboxing and MMA")
         print("---------------")
