@@ -1,0 +1,21 @@
+#container1{
+    color:blueviolet;
+    font-size: large;
+}
+#p{
+    text-align:center;
+    color:red;
+    font-style: italic;
+}
+#pp{
+    font-size: xx-large;
+    color:chocolate;
+    font-style: inherit;
+}
+body{
+    background-color: black;
+}
+#f1{
+    border-radius: 15px;
+    border: 3px solid red;
+}
