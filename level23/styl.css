@@ -1,0 +1,45 @@
+.box{
+    width: 100px;
+    height: 100px;
+
+}
+.hex{
+    background-color: #ffffff;
+}
+.rgb{
+    background-color: rgb(red, green, blue);
+
+}
+.named{
+    background-color: blue;
+}
+.parent{
+    width:600px;
+    height: 200px;
+    display: flex;
+}
+.child1{
+    width: 150px;
+    background-color: coral;
+}
+.child2{
+    width: 50%;
+    background-color: lightblue;
+}
+.child3{
+    width: 150px;
+    background-color: green;
+}
+
+.p1{
+    color:green;
+    text-decoration: underline overline;
+}
+.p2{
+    color:pink;
+    text-decoration:  overline;
+}
+.p3{
+    color:blue;
+    text-decoration: line-through;
+}

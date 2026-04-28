@@ -1,0 +1,111 @@
+h1{
+    color:rgb(150, 5, 207)
+}
+h2{
+    color:purple
+}
+h3{
+    color:#3a015c
+}
+.pp3{
+    background-color: green;
+    border: 2px solid rgb(201, 99, 16);
+}
+.pp4{
+    background-color: darkred;
+    border: 1px double #003356
+}
+
+#img1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #490000
+}
+#img2{
+    width: 150px;
+    height: 150px;
+    border: 3px dashed #003356;
+}
+#img3{
+    width: 200px;
+    height: 200px;
+    border: 4px dotted #3a015c
+}
+#img4{
+    width: 250px;
+    height: 250px;
+    border: 2px double #12562a;
+}
+#container{
+    background-color: #003356;
+    width: 200px;
+    height: 200px;
+}
+#Child{
+    width: 50%;
+    height: 50%;
+}
+#contac{
+    width: 300px;
+    height: 300px;
+    font-size: 35px;
+}
+#contac1{
+    font-size: 150%;
+}
+#feri1{
+    text-decoration: underline dotted red;
+}
+#feri2{
+    text-decoration: overline wavy #003356;
+}
+#feri3{
+    text-decoration: line-through dashed  ;
+}
+#dd1 {
+  text-decoration: underline dotted;
+}
+
+#dd2 {
+  text-decoration: overline dashed;
+}
+
+#dd3 {
+  text-decoration: line-through wavy red;
+}
+
+#dd4 {
+  text-decoration: underline double;
+}
+
+#dd5 {
+  text-decoration: underline solid;
+}
+h1 {
+  text-decoration: underline;
+}
+
+h2 {
+  text-decoration: overline;
+}
+
+h3 {
+  text-decoration: line-through dashed blueviolet;
+}
+
+em {
+  text-decoration: underline wavy red;
+}
+
+strong {
+  text-decoration: underline double;
+}
+#c1 { text-decoration: underline solid; }
+#c2 { text-decoration: underline dotted; }
+#c3 { text-decoration: underline dashed; }
+#c4 { text-decoration: underline double; }
+#c5 { text-decoration: underline wavy red; }
+#c6 { text-decoration: overline solid; }
+#c7 { text-decoration: underline wavy blueviolet; }
+#c8 { text-decoration: underline double blue; }
+#c9 { text-decoration: line-through dashed orange; }
