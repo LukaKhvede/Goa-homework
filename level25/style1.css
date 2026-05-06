@@ -1,0 +1,181 @@
+/* color - ტექსტის ფერს განსაზღვრავს */
+/* color: red; */
+
+/* font-size - ტექსტის ზომა */
+/* font-size: 16px; */
+
+/* font-family - შრიფტის ტიპი (მაგ: Arial, Roboto) */
+/* font-family: Arial, sans-serif; */
+
+/* font-weight - ტექსტის სისქე (normal, bold, 100-900) */
+/* font-weight: bold; */
+
+/* font-style - ტექსტის სტილი (normal, italic) */
+/* font-style: italic; */
+
+/* text-align - ტექსტის განლაგება (left, center, right) */
+/* text-align: center; */
+
+/* text-decoration - ტექსტის დეკორაცია (underline, none, line-through) */
+/* text-decoration: none; */
+
+/* text-transform - ტექსტის ტრანსფორმაცია (uppercase, lowercase, capitalize) */
+/* text-transform: uppercase; */
+
+
+/* text-shadow - ტექსტზე ჩრდილის დამატება */
+/* text-shadow: 2px 2px 5px gray; */
+
+/* meore */
+/* Pseudo-Selector არის:
+სპეციალური CSS selector, რომელიც ელემენტის მდგომარეობას აღწერს.
+:hover → როცა მაუსი გადაგაქვს ელემენტზე
+:active → როცა ელემენტზე დაჭერილი გაქვს
+:visited → როცა ლინკი უკვე ნანახი გაქვს
+:link → როცა ლინკი ჯერ არ გაქვს გახსნილი
+:first-child → პირველი ელემენტი მშობელში
+:last-child → ბოლო ელემენტი
+:nth-child(n) → კონკრეტული ინდექსის ელემენტი */
+
+/* mesame */
+
+/* GENERAL TEXT STYLE */
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* GENERAL */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+.logo {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+/* NAV */
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* HOVER */
+nav a:hover {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* ACTIVE */
+nav a:active {
+    font-size: 16px;
+}
+
+/* HERO */
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* BUTTON */
+.hero button {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* MODELS */
+.models h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* CAR */
+.car h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.car p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* FOOTER */
+footer {
+    font-size: 14px;
+}
+
+footer a {
+    font-size: 14px;
+}
+
+/* FOOTER HOVER */
+footer a:hover {
+    font-size: 16px;
+}
+/* FOOTER */
+footer {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+/* FOOTER HOVER */
+footer a:hover {
+    text-decoration: underline;
+    text-shadow: 1px 1px 3px white;
+}
+
+/* meotxe */
+
+nav a {
+    color: red; /* საწყისი წითელი ფერი */
+    text-decoration: none; /* ხაზგასმის მოშორება */
+}
+
+/*  (Hover) */
+nav a:hover {
+    color: blue; /* ლურჯი ფერი */
+    font-size: 22px; /* ზომის გაზრდა */
+    font-weight: bold; /* გაბოლდება */
+}
+
+/*  (Active) */
+nav a:active {
+    color: purple; /* იისფერი */
+    font-size: smaller; /* ზომაში შემცირება */
+}
+
+/*  (Visited) */
+nav a:visited {
+    color: yellow; /* ყვითელი ფერი */
+    font-weight: normal; /* სტანდარტული სისქე */
+}
+
+/* mexute */
+
+
+.links a:hover {
+  text-decoration: none;
+  text-decoration: underline white;
+  font-size: larger;
+}
+
+/* meeqvse */
+th{
+    background-color: blueviolet;
+    color:white
+}
+button{
+    background-color: blueviolet;
+    color:white;
+}

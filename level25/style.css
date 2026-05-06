@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap');
+
+#pp:hover{
+    font-style: normal;
+    text-shadow: 5px 3px 3px rgb(64, 33, 190);
+    color:green
+
+}
+#pppp:hover{
+    text-shadow: 5px 5px 5px black;
+
+}
+#ppppp:visited{
+    color:pink
+}
+#pppppp:active{
+    color:green
+}
+h2:hover{
+    text-shadow: 20px 20px 20px purple;
+    background-color: chartreuse;
+}
