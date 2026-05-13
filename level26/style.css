@@ -1,0 +1,25 @@
+#po{
+    background-color: blue;
+
+}
+table{
+    border:2px solid black;
+
+    border-collapse: collapse;
+}
+td{
+    border:2px solid black
+}
+th{
+    background-color: black;
+    color:white
+}
+tr:nth-child(even){
+    background-color: gray;
+    color:white
+
+}
+tr:nth-child(odd){
+    background-color: aliceblue;
+    color:gray;
+}
