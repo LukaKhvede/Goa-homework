@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #e10600;
+}
+
+.header img {
+    width: 100%;
+    height: 70px;
+}
+
+/* VIDEOS SECTION */
+
+.videos-section {
+    width: 90%;
+    margin: 40px auto;
+    background-color: #111111;
+    border: 1px solid #e10600;
+    padding: 20px;
+}
+
+.videos-title {
+    text-align: center;
+    color: #e10600;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+/* FLEX VIDEOS */
+
+.videos-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.video-card {
+    width: 160px;
+    background-color: #1a1a1a;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.video-card:hover {
+    border-color: #e10600;
+}
+
+.video-card video {
+    width: 90px;
+    height: 53px;
+    border-bottom: 1px solid red;
+}
+
+.video-card p {
+    padding: 8px;
+    text-align: center;
+    font-size: 11px;
+    color: #cccccc;
+}
+
+/* MAIN CARDS */
+
+.main {
+    width: 90%;
+    margin: 40px ;
+    display: flex;
+    justify-content: center;
+}
+
+/* SMALLER CARDS */
+
+.card {
+    width: 87px;
+    background-color: #1a1a1a;
+    border: 1px solid gray;
+    border-radius: 10%;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: #220000;
+}
+
+.card img {
+    width: 87px;
+    height: 70px;
+    border-radius: 14%;
+}
+
+.card p {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #e10600;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 50px;
+    background-color: #111111;
+    border-top: 1px solid #e10600;
+    text-align: center;
+    padding: 20px;
+    color: #888888;
+    
+}
