@@ -1,0 +1,120 @@
+#box1{
+    flex-grow:4;
+}
+#box2{
+    flex-grow: 1;
+}
+#box3{
+    flex-grow: 1;
+}
+#box4{
+    flex-grow: 1;
+}
+#box5{
+    flex-grow: 1;
+}
+#boxx1{
+    flex-grow:0;
+}
+#boxx2{
+    flex-grow:1;
+}
+#boxx3{
+    flex-grow:0;
+}
+
+/* mesame */
+
+/* flex-grow გამოიყენება მაშინ, როცა გვინდა Flexbox-ის ელემენტებმა თავისუფალი სივრცე გადაინაწილონ.
+ანუ თუ კონტეინერში დარჩა თავისუფალი ადგილი, flex-grow განსაზღვრავს რომელმა ელემენტმა რამდენი სივრცე უნდა დაიკავოს. */
+
+/* meotxe */
+
+/* flex-shrink განსაზღვრავს რამდენად “შეკუმშდეს” Flex ელემენტი, როცა კონტეინერში ადგილი აღარ არის.
+ანუ თუ ელემენტები მთლიან სივრცეში აღარ ეტევა, flex-shrink წყვეტს რომელი ელემენტი რამდენით შემცირდება. */
+
+/* style.css */
+
+/* flex-direction განსაზღვრავს Flex ელემენტების მიმართულებას */
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+/* row → მარცხნიდან მარჯვნივ */
+#p {
+    display: flex;
+    flex-direction: row;
+}
+
+/* column → ზემოდან ქვემოთ */
+#pp {
+    display: flex;
+    flex-direction: column;
+}
+
+/* row-reverse → მარჯვნიდან მარცხნივ */
+#ppp {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* column-reverse → ქვემოდან ზემოთ */
+#pppp {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* meeqvse */
+
+/* flex-wrap განსაზღვრავს გადაიტანოს თუ არა Flex ელემენტები ახალ ხაზზე, როცა კონტეინერში ადგილი აღარ არის. */
+
+/* gap გამოიყენება Flex ელემენტებს შორის დაშორების გასაკეთებლად. */
+
+
+/* meshvide */
+
+.container1 {
+    width: 700px;
+    height: 300px;
+
+    display: flex;
+    gap: 10px;
+}
+
+.left {
+    flex-grow: 1;
+    background-color: aquamarine;
+}
+
+.right {
+   
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top,
+.bottom {
+    flex-grow:1;
+    background-color: aquamarine;
+}
+
+.middle {
+    
+    flex-grow:1;
+    display: flex;
+    gap: 10px;
+}
+
+.boxp {
+    flex-grow:1;
+    background-color: aquamarine;
+}
