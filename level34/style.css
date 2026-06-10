@@ -1,0 +1,22 @@
+#img1{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 230px;
+    top: 150px;
+}
+#goa{
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+
+}
+#top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+}

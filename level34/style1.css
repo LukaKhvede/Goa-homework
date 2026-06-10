@@ -1,0 +1,29 @@
+header{
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    background: yellow;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 60px;
+}
+
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
