@@ -1,0 +1,25 @@
+/* მშობელი div */
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+/* შვილები */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ტელეფონის ეკრანზე (768px და ნაკლები)
+   div-ები ერთმანეთის ზემოთ-ქვემოთ დალაგდება */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}

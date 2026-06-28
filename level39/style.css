@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+.box1{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(137, 43, 226, 0.322);
+    position: absolute;
+    left: 30px;
+    top: 40px;
+}
+#img1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    
+}
+.stats {
+    display: flex;
+    gap: 50px;
+}
+
+.item h2 {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+
+.item p {
+    color: gray;
+    font-size: 7px;
+    margin: 5px 0 0 0;
+    text-transform: uppercase;
+}
+
+@media (max-width: 700px) {
+     .box1{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,65 @@
+body{
+    background-color: aquamarine;
+}
+.main{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 85px;
+    top:40px;
+    border-radius: 5%;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(72, 0, 255, 0.678);
+    position: absolute;
+    left: 0px;
+    top:0px;
+    border-radius: 5%;
+}
+#lll{
+    font-size: 10px;
+    color: rgba(245, 245, 245, 0.596);
+}
+#ll{
+    font-size: 15px;
+    color: rgba(245, 245, 245, 0.579);
+}
+
+ .circle{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+
+.circle h3{
+    margin: 0;
+    color: white;
+    font-size: 50px;
+}
+
+.circle p{
+    margin: 0;
+    color: lightgray;
+    font-size: 14px;
+}
+#res{
+    margin-left: 65px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+#gr{
+    margin-top: 130px;
+    margin-left: 85px;
+}
