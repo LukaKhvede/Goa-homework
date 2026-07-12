@@ -1,0 +1,24 @@
+#but:hover{
+    transform: translateX(20px);
+}
+/* meore */
+#square{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    transition: 2s;
+}
+#square:active{
+    transform: translateX(50px) rotate(50deg);
+}
+
+#facebook{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+    transition-timing-function: linear;
+}
+#facebook:hover{
+    transform: scale(1.05); /*radgan 100 px aris simaghle da sigane 1.05 aris 105px anu 5px it gaizrdeba */
+}

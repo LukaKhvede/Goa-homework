@@ -1,0 +1,30 @@
+
+#go{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    transition:  3s ;
+    transition-delay: 1s;
+    transition-timing-function: linear
+}
+#go:hover{
+    transform: translate(300px);
+    background-color: red;
+    border-radius: 100%;
+}
+
+/* meore */
+
+
+img{
+    height: 200px;
+    width: 200px;
+    transition: 2s;
+}
+img:active{
+    transform: translate(0,200px);
+    width:400px;
+    height: 400px;
+    border: 2px solid red;
+
+}
