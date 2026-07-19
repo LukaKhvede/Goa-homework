@@ -1,0 +1,67 @@
+body{
+    background-color: darkblue;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#div1{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    animation: going_up ease-in-out 1s;
+    animation-iteration-count: infinite;
+}
+#div2{
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    animation: going_up1 ease-in-out 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+}
+#div3{
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    animation: going_up2 ease-in-out 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+}
+@keyframes going_up{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes going_up1{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes going_up2{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
