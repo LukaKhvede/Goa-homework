@@ -1,0 +1,487 @@
+/*BASIC*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0b0f;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+/*HEADER */
+
+header {
+    height: 70px;
+    padding: 0 8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #111116;
+}
+
+.logo {
+    color: #e7a73d;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #e7a73d;
+}
+
+
+/*HERO*/
+
+.hero {
+    height: 400px;
+
+    padding: 60px 8%;
+
+    display: flex;
+    align-items: center;
+
+    background-image:
+        linear-gradient(to right, #0b0b0f 20%, transparent),
+        url("https://d2eehagpk5cl65.cloudfront.net/img/q60/uploads/2024/03/Dune-Part-2.jpg");
+
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.hero-content {
+    width: 550px;
+}
+
+.yellow-text {
+    color: #e7a73d;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.movie-info {
+    color: #aaaaaa;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: #aaaaaa;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.rating {
+    color: #e7a73d;
+    font-weight: bold;
+}
+
+
+/*BUTTONS */
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.button {
+    padding: 12px 18px;
+
+    background-color: #e7a73d;
+    color: black;
+
+    border-radius: 5px;
+
+    font-size: 13px;
+}
+
+.button:hover {
+    background-color: #ffc45c;
+}
+
+.dark-button {
+    background-color: transparent;
+    color: white;
+
+    border: 1px solid #555555;
+}
+
+.dark-button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* GENERAL SECTION*/
+
+.section {
+    padding: 70px 8%;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 30px;
+}
+
+.section-title a {
+    color: #e7a73d;
+    font-size: 13px;
+}
+
+.section-title a:hover {
+    text-decoration: underline;
+}
+
+
+/*MOVIES*/
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie-card {
+    width: 180px;
+
+    background-color: #15151b;
+
+    border-radius: 7px;
+}
+
+.movie-card img {
+    width: 180px;
+    height: 260px;
+
+    border-radius: 7px 7px 0 0;
+}
+
+.movie-content {
+    padding: 15px;
+}
+
+.movie-content h3 {
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+
+.movie-content p {
+    color: #888888;
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+.movie-content .rating {
+    color: #e7a73d;
+    margin-bottom: 12px;
+}
+
+.watch {
+    padding: 8px 13px;
+
+    background-color: #e7a73d;
+    color: black;
+
+    border-radius: 4px;
+
+    font-size: 11px;
+}
+
+.watch:hover {
+    background-color: #ffc45c;
+}
+
+
+/*ABOUT*/
+
+.about {
+    padding: 80px 8%;
+
+    background-color: #111116;
+}
+
+.about-content {
+    width: 650px;
+}
+
+.about h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.about p {
+    color: #aaaaaa;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+
+/*PAGE TITLE*/
+
+.page-title {
+    text-align: center;
+
+    padding: 70px 20px 40px;
+}
+
+.page-title h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.page-title p {
+    color: #888888;
+}
+
+
+/*FORM PAGE*/
+
+.form-page {
+    height: 650px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px 20px;
+}
+
+.form-box {
+    width: 450px;
+
+    padding: 35px;
+
+    background-color: #15151b;
+
+    border-radius: 8px;
+}
+
+.form-box h1 {
+    margin-bottom: 10px;
+}
+
+.form-box > p {
+    color: #888888;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+input,
+select {
+    padding: 12px;
+
+    background-color: #0d0d12;
+
+    color: white;
+
+    border: 1px solid #333333;
+
+    border-radius: 5px;
+}
+
+input:active,
+select:active {
+    border-color: #e7a73d;
+}
+
+form button {
+    margin-top: 15px;
+
+    padding: 13px;
+
+    background-color: #e7a73d;
+
+    border: none;
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #ffc45c;
+}
+
+
+/*FOOTER*/
+
+footer {
+    padding: 35px 8%;
+
+    background-color: #070709;
+
+    text-align: center;
+}
+
+footer h3 {
+    color: #e7a73d;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #666666;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer a {
+    color: #888888;
+    font-size: 13px;
+}
+
+footer a:hover {
+    color: #e7a73d;
+}
+
+
+/*TABLET*/
+
+@media (max-width: 900px) {
+
+    .movie-card {
+        width: 180px;
+    }
+
+    .movie-card img {
+        width: 180px;
+        height: 260px;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+}
+
+
+/*PHONE*/
+
+@media (max-width: 600px) {
+
+    header {
+        height: auto;
+
+        padding: 20px;
+
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    .hero {
+        height: 500px;
+
+        padding: 60px 6%;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .movie-list {
+        justify-content: center;
+    }
+
+    .movie-card {
+        width: 160px;
+    }
+
+    .movie-card img {
+        width: 160px;
+        height: 230px;
+    }
+
+    .section {
+        padding: 50px 6%;
+    }
+
+    .section-title h2 {
+        font-size: 25px;
+    }
+
+    .about {
+        padding: 60px 6%;
+    }
+
+    .about-content {
+        width: 100%;
+    }
+
+    .form-page {
+        height: 600px;
+    }
+
+    .form-box {
+        width: 100%;
+        padding: 25px;
+    }
+
+}
